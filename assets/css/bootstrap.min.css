@@ -14,3 +14,18 @@
  .navbar-bot-copy-text {
 	padding-top: 15px;
  }
+
+ .portfolio-label {
+	position: absolute;
+	left: 15px;
+	bottom: 10px;
+	width: 275px;
+	height: 60px;
+	background-color: #4aaaa5;
+	color: white;
+	font-family: "Open Sans";
+	font-size: 26px;
+	text-align: center;
+	line-height: 60px;
+	z-index: 100;
+}
