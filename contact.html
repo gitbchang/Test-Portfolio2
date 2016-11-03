@@ -2,72 +2,96 @@
 <html>
 	<head>
 		<title>Contact Page</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	</head>
 	<body>
-		<!-- TOP HEADER BAR -->
-		<div class="header">
-			<section id="headername">
-				<h1>Brian Chang</h1>
-			</section>
-			
-			<section class="buttonSection">
-				<a href="index.html"><button style="border-right: 1px solid;" type="button">&nbspAbout&nbsp</button></a>
-				<a href="portfolio.html"><button style="border-right: 1px solid;" type="button">&nbspPortfolio&nbsp</button></a>
-				<a href="contact.html"><button type="button">&nbspContact</button></a>
-			</section>
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Brian Chang</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="index.html" target="blank">About</a>
+						</li>
+						<li>
+							<a href="portfolio.html" target="blank">Portfolio</a>
+						</li>
+						<li>
+							<a href="contact.html" target="blank">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		
-		
-		<!--Contact Form Page - MIDDLE SECTION -->
-		<div class="middle">
-			<!-- CONTACT SECTION -->
-			<section class="middleForm">
-				<h1 id="middleheader">Contact</h1>
-				<hr><br>
-				<form id="contactForm">
-					Name
-					<br>
-					<input class="inputarea" type="text" name="fullName" placeholder="John Smith">
-					<br><br>
-					Email
-					<br/>
-					<input class="inputarea" type="text" name="email" placeholder="example@gmail.com">
-					<br><br>
-					Message
-					<br>
-					<textarea class="textarea"></textarea>
-					<br>
-					<input id="submitbutton" type="submit" value="Submit">
+		<br><br><br>
+		<!-- MIDDLE FORM PAGE -->
+		<div class="container">
+			<div class="col-md-9">
+				<form class="form-horizontal">
+					<fieldset>
+						<legend><h2>Contact Me</h2></legend>
+						<div class="form-group">
+							<label for="Full Name" class="col-lg-2 control-label">Name</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" placeholder="Name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="inputEmail" class="col-lg-2 control-label">Email</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="inputEmail" placeholder="Email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="textArea" class="col-lg-2 control-label">Message</label>
+							<div class="col-lg-10">
+								<textarea class="form-control" rows="3" id="textArea"></textarea>
+								<span class="help-block">Let me know how I can improve!</span>
+							</div>
+						</div>
+
+
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2">
+								
+								<button type="submit" class="btn btn-success">Submit</button>
+							</div>
+						</div>
+					</fieldset>
 				</form>
-			</section>
-			<!-- CONNECT WITH ME AREA -->
-			<section id="middleconnect">
-				<h2>Connect with Me</h2>
-				<hr>
-				<div class="gitbutton">
-					<a href="https://github.com/gitbchang" target="blank">
-						<img src="https://w75oxq.by3302.livefilestore.com/y3mQuK2sorwBPOyoELe8JdFfjUM3NOpq_0Ctpl8TrBNHyZIY9r5xnyzRQjMD4o_Ut7dxV8YhqoseZFr_pNfGgJmUYts6bRODJvsQHqbt-YJXz88nn8vpSm7SA5Dv3QYNX0uYIctQ9Siu2kg1yM9R-UZx5e4k7ZcxgsGuKedUnR1dTk?width=128&height=128&cropmode=none" width="62" height="62" alt="Github" />
-					</a>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title">Connect With Me</h3>
+					</div>
+					<div class="panel-body">
+						<a href="https://github.com/gitbchang" target="blank">
+							<img src="https://w75oxq.by3302.livefilestore.com/y3mQuK2sorwBPOyoELe8JdFfjUM3NOpq_0Ctpl8TrBNHyZIY9r5xnyzRQjMD4o_Ut7dxV8YhqoseZFr_pNfGgJmUYts6bRODJvsQHqbt-YJXz88nn8vpSm7SA5Dv3QYNX0uYIctQ9Siu2kg1yM9R-UZx5e4k7ZcxgsGuKedUnR1dTk?width=128&height=128&cropmode=none" width="30" height="30" alt="Github" />
+						</a>
+						<a href="https://www.linkedin.com/in/brian-chang-a7965754" target="blank">
+							<img src="https://ur4d0g.by3302.livefilestore.com/y3mJadHetXWSuZosEWRR-d2cKOa4Pua-TQ5TbWJMVXNvwTEVC_Jl9-HTWMsIgfhvIF5htfJDKNVJS2LKa8LzXu7_qxb6z2P_ShoMicx-RTCvQnaEwX5xCGvjRzbj8cvETESV4QyOhCvulm4bjDHkdV_-tN6IbpTu2S8P0wwmM0mdtw?width=128&height=128&cropmode=none" width="30" height="30" alt="LinkedIn" />
+						</a>
+						<a href="http://stackoverflow.com/users/6905654/brian-chang" target="blank">
+							<img src="https://wr5oxq.by3302.livefilestore.com/y3mZcC_F0y6qV1leAIv8hrA-yP-QkEb1xjuYdPPCAbDot-_93EO9EkKtM6EthLj8pSLvftS7vADFDVzGCzeEG9dmzRMG7e6hIC6i_aL_E-mEcBkY93yTIYwn94MKXGu4Tcv0cpgPt4ixw28VVijhfEkrEQMpl2muqUCSquVOeBJsFc?width=128&height=128&cropmode=none" width="30" height="30" alt="stackOverflow" />
+						</a>
+					</div>
 				</div>
-				<div class="libutton">
-					<a href="https://www.linkedin.com/in/brian-chang-a7965754" target="blank">
-						<img src="https://ur4d0g.by3302.livefilestore.com/y3mJadHetXWSuZosEWRR-d2cKOa4Pua-TQ5TbWJMVXNvwTEVC_Jl9-HTWMsIgfhvIF5htfJDKNVJS2LKa8LzXu7_qxb6z2P_ShoMicx-RTCvQnaEwX5xCGvjRzbj8cvETESV4QyOhCvulm4bjDHkdV_-tN6IbpTu2S8P0wwmM0xstw?width=128&height=128&cropmode=none" width="62" height="62" alt="LinkedIn" />
-					</a>
+			</div>
+		</div>
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<p class="text-muted navbar-bot-copy-text">
+							&copy; Copyright 2016 Brian Chang
+						</p>
+					</div>
 				</div>
-				<div class="sobutton">
-					<a href="http://stackoverflow.com/users/6905654/brian-chang" target="blank">
-						<img src="https://wr5oxq.by3302.livefilestore.com/y3mZcC_F0y6qV1leAIv8hrA-yP-QkEb1xjuYdPPCAbDot-_93EO9EkKtM6EthLj8pSLvftS7vADFDVzGCzeEG9dmzRMG7e6hIC6i_aL_E-mEcBkY93yTIYwn94MKXGu4Tcv0cpgPt4ixw28VVijhfEkrEQMpl2muqUCSquVOeBJsFc?width=128&height=128&cropmode=none" width="62" height="62" alt="stackOverflow" />
-					</a>
-				</div>
-			</section>
+			</div>
 		</div>
 	</body>
-	<div class="footerteal">
-	</div>
-	<footer>
-		<p>
-			&copy; Copyright 2016 Brian Chang
-		</p>
-	</footer>
 </html>

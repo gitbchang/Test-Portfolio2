@@ -2,73 +2,86 @@
 <html>
 	<head>
 		<title>About Me - Brian Chang</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	</head>
 	<body>
-		<!--Top header with About-Portfolio-Contact buttons -->
-		<div class="header">
-			<section id="headername">
-				<h1>Brian Chang</h1>
-			</section>
-			
-			<section class="buttonSection">
-				
-				<a href="index.html"><button class="topbutton" type="button">&nbspAbout&nbsp</button></a>
-				<a href="portfolio.html"><button class="topbutton" type="button">&nbspPortfolio&nbsp</button></a>
-				<a href="contact.html"><button type="button">&nbspContact</button></a>
-				
-			</section>
-		</div>
-		
-		<!-- About me, left section -->
-		<div class="middle">
-			<section id="middleabout">
-				<h1 id="middleheader">About Me</h1>
-				<hr>
-				<img id="middleimg" src="https://xb5oxq.by3302.livefilestore.com/y3miv9jbiAoiSnmPtm1YFS5ePXRVn1vACCpl1tCceQMg6J3b48g-TTMpu2mQjEzMYGC4bkZ9Xf66k7XMpoWRR2TitXFC9ZRO_QXO5wuJiJig8i55gjI3Bgio9X9Qu6FRn4F9NUB6JYvB0eMWVU0J4MvSiGlfQGOebzx4DB5nNi53k4?width=400&height=400&cropmode=none" width="200" height="200" alt="profilepic" />
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec dolor dapibus, pulvinar lorem vel, rutrum turpis. Ut convallis lacinia dui quis consectetur. Nunc lorem metus, euismod vitae mattis ut, egestas ut arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus pulvinar nec magna pharetra consequat.
-				</p>
-				<p>
-					Morbi nulla ligula, rhoncus quis tellus vitae, efficitur aliquam ligula. Aliquam non quam ac felis sollicitudin pretium non ornare tortor. Aliquam eu risus at ipsum bibendum fringilla vel vitae mi. Aenean urna odio, euismod ultrices interdum ut, aliquet non enim. Quisque eu diam nibh. Praesent a nunc pulvinar, finibus felis ac, auctor arcu. Integer blandit, justo a ullamcorper laoreet, mauris magna dapibus sapien, ut luctus sem ligula aliquet quam.
-				</p>
-			</section>
-			<section id="middleconnect">
-				
-				<!-- Connect with me, right section -->
-				<h2>Connect with Me</h2>
-				<hr>
-				<div class="gitbutton">
-					<a href="https://github.com/gitbchang" target="blank">
-						<img src="https://w75oxq.by3302.livefilestore.com/y3mQuK2sorwBPOyoELe8JdFfjUM3NOpq_0Ctpl8TrBNHyZIY9r5xnyzRQjMD4o_Ut7dxV8YhqoseZFr_pNfGgJmUYts6bRODJvsQHqbt-YJXz88nn8vpSm7SA5Dv3QYNX0uYIctQ9Siu2kg1yM9R-UZx5e4k7ZcxgsGuKedUnR1dTk?width=128&height=128&cropmode=none" width="62" height="62" alt="Github" />
-					</a>
+		<!-- TOP NAVIGATION BAR -->
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Brian Chang</a>
 				</div>
-				<div class="libutton">
-					<a href="https://www.linkedin.com/in/brian-chang-a7965754" target="blank">
-						<img src="https://ur4d0g.by3302.livefilestore.com/y3mJadHetXWSuZosEWRR-d2cKOa4Pua-TQ5TbWJMVXNvwTEVC_Jl9-HTWMsIgfhvIF5htfJDKNVJS2LKa8LzXu7_qxb6z2P_ShoMicx-RTCvQnaEwX5xCGvjRzbj8cvETESV4QyOhCvulm4bjDHkdV_-tN6IbpTu2S8P0wwmM0xstw?width=128&height=128&cropmode=none" width="62" height="62" alt="LinkedIn" />
-					</a>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="index.html" target="blank">About</a>
+						</li>
+						<li>
+							<a href="portfolio.html" target="blank">Portfolio</a>
+						</li>
+						<li>
+							<a href="contact.html" target="blank">Contact</a>
+						</li>
+					</ul>
 				</div>
-				<div class="sobutton">
-					<a href="http://stackoverflow.com/users/6905654/brian-chang" target="blank">
-						<img src="https://wr5oxq.by3302.livefilestore.com/y3mZcC_F0y6qV1leAIv8hrA-yP-QkEb1xjuYdPPCAbDot-_93EO9EkKtM6EthLj8pSLvftS7vADFDVzGCzeEG9dmzRMG7e6hIC6i_aL_E-mEcBkY93yTIYwn94MKXGu4Tcv0cpgPt4ixw28VVijhfEkrEQMpl2muqUCSquVOeBJsFc?width=128&height=128&cropmode=none" width="62" height="62" alt="stackOverflow" />
-					</a>
+			</div>
+		</div>
+		<br><br><br>
+		<!-- CONTAINER BODY -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">About Me</h3>
+						</div>
+						<div class="panel-body">
+							<div class="row">
+								<div class="col-md-3">
+									<img id="aboutimg" src="https://xb5oxq.by3302.livefilestore.com/y3miv9jbiAoiSnmPtm1YFS5ePXRVn1vACCpl1tCceQMg6J3b48g-TTMpu2mQjEzMYGC4bkZ9Xf66k7XMpoWRR2TitXFC9ZRO_QXO5wuJiJig8i55gjI3Bgio9X9Qu6FRn4F9NUB6JYvB0eMWVU0J4MvSiGlfQGOebzx4DB5nNi53k4?width=400&height=400&cropmode=none" width="200" height="200" alt="profilepic" />
+								</div>
+								<div class=" col-md-9">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam recusandae velit autem cupiditate facilis quae commodi! Quidem modi obcaecati, beatae illum, minima dolore ratione illo reiciendis odit, earum pariatur voluptatibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit delectus minus expedita aut eaque saepe repellendus asperiores? Excepturi, minus minima obcaecati similique. Odit pariatur, hic quaerat a tenetur deleniti obcaecati? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sed nesciunt, recusandae quidem unde quis laudantium reiciendis voluptas architecto a, impedit vero nobis voluptate aut sunt distinctio! Labore, veritatis, reiciendis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur commodi dicta at magnam recusandae voluptatibus maxime, quasi iste! Minima maxime quia non eos delectus, consequuntur dicta adipisci laudantium eum dolores.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-			</section>
+				<div class="col-md-3">
+					<div class="panel panel-success">
+						<div class="panel-heading">
+							<h3 class="panel-title">Connect With Me</h3>
+						</div>
+						<div class="panel-body">
+							<a href="https://github.com/gitbchang" target="blank">
+								<img src="https://w75oxq.by3302.livefilestore.com/y3mQuK2sorwBPOyoELe8JdFfjUM3NOpq_0Ctpl8TrBNHyZIY9r5xnyzRQjMD4o_Ut7dxV8YhqoseZFr_pNfGgJmUYts6bRODJvsQHqbt-YJXz88nn8vpSm7SA5Dv3QYNX0uYIctQ9Siu2kg1yM9R-UZx5e4k7ZcxgsGuKedUnR1dTk?width=128&height=128&cropmode=none" width="30" height="30" alt="Github" />
+							</a>
+							<a href="https://www.linkedin.com/in/brian-chang-a7965754" target="blank">
+								<img src="https://ur4d0g.by3302.livefilestore.com/y3mJadHetXWSuZosEWRR-d2cKOa4Pua-TQ5TbWJMVXNvwTEVC_Jl9-HTWMsIgfhvIF5htfJDKNVJS2LKa8LzXu7_qxb6z2P_ShoMicx-RTCvQnaEwX5xCGvjRzbj8cvETESV4QyOhCvulm4bjDHkdV_-tN6IbpTu2S8P0wwmM0mdtw?width=128&height=128&cropmode=none" width="30" height="30" alt="LinkedIn" />
+							</a>
+							<a href="http://stackoverflow.com/users/6905654/brian-chang" target="blank">
+								<img src="https://wr5oxq.by3302.livefilestore.com/y3mZcC_F0y6qV1leAIv8hrA-yP-QkEb1xjuYdPPCAbDot-_93EO9EkKtM6EthLj8pSLvftS7vADFDVzGCzeEG9dmzRMG7e6hIC6i_aL_E-mEcBkY93yTIYwn94MKXGu4Tcv0cpgPt4ixw28VVijhfEkrEQMpl2muqUCSquVOeBJsFc?width=128&height=128&cropmode=none" width="30" height="30" alt="stackOverflow" />
+							</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
 		</div>
-		<div style="clear:both;"></div>
-		
-		<!-- Footer -->
-		<div class="footerteal">
+		<!-- BOTTOM STICKY FOOTER -->
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<p class="text-muted navbar-bot-copy-text">
+							&copy; Copyright 2016 Brian Chang
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
-		<footer>
-			<p>
-				&copy; Copyright 2016 Brian Chang
-			</p>
-		</footer>
-		<!--
-		<div class="footer">
-				Copyright 2016 Brian Chang
-		</div>
-		-->
 	</body>
 </html>
